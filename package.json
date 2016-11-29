@@ -6,6 +6,9 @@
   "repository": "git@github.com:Zumium/async-jsonparser.git",
   "author": "Zumium <martin007323@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha tests"
+  },
   "dependencies": {
     "bindings": "^1.2.1",
     "nan": "^2.4.0"
