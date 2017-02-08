@@ -7,10 +7,13 @@
   "author": "Zumium <martin007323@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha tests"
+    "test": "./node_modules/.bin/_mocha tests"
   },
   "dependencies": {
     "bindings": "^1.2.1",
     "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
   }
 }
